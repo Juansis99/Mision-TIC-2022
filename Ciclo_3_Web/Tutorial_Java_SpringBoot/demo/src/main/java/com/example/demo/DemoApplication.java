@@ -11,29 +11,20 @@ import java.time.LocalDate;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		//la anotacion @SpringApplication se importa con la sugerencia que se entrega
+		//SpringApplication se importa con la sugerencia que se entrega
 		SpringApplication.run(DemoApplication.class, args); //se descomenta pues ya se va a configurar el servidor web
-//		Task tarea1 = new Task("Aprender Java", false, LocalDate.of(2022,12,31));
-//
-//		System.out.println(tarea1.getDescription());
-//
-//		tarea1.setDescription("Apender Java y desarrollo web");
-//
-//		System.out.println(tarea1.getDescription());
-//
-//
-//		TaskList propositos = new TaskList("Propositos fin de anio");
-//
-//		propositos.addTask(tarea1);
-//
-//		System.out.println(propositos.getTaskList().size());
-//
-//
-//		Task tarea2 = new Task("Aprender HTML", false, LocalDate.of(2022,12,31));
-//
-//		propositos.addTask(tarea2);
-//
-//		System.out.println(propositos.getTaskList().size());
+/*		Este segmento de codigo queda ya sin utilidad pues la creacion de tareas se movio al servicio (clase TaskService)
+		//Task tarea1 = new Task("Aprender Java", false, LocalDate.of(2022,12,31));
+		//System.out.println(tarea1.getDescription());
+		//tarea1.setDescription("Apender Java y desarrollo web");
+		//System.out.println(tarea1.getDescription());
+		//TaskList propositos = new TaskList("Propositos fin de anio");
+		//propositos.addTask(tarea1);
+		//System.out.println(propositos.getTaskList().size());
+		//Task tarea2 = new Task("Aprender HTML", false, LocalDate.of(2022,12,31));
+		//propositos.addTask(tarea2);
+		//System.out.println(propositos.getTaskList().size());
+ */
 
 	}
 
