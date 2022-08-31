@@ -4,24 +4,28 @@
 package com.example.demo.controllers;
 
 //import com.example.demo.entities.Task; //esta linea se comento porque en los retorno ya no se requiere retornar la clase Task
+import com.example.demo.entities.Task;
 import com.example.demo.entities.TaskList;
 import com.example.demo.services.TaskService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
+import java.util.List;
 
 //El @RestController se agrego con el path sugerido y ahi si se activo
 @RestController //Hace que Spring Boot sepa que la funcion se va a exponer a los usuarios
 public class TaskController {
     //el siguiente atibuto y constructor se agregas pues ya se requiere para que poder acceder efectivamente al servicio
     //Atributos
-    TaskService service; //se importa la clase TaskService con el asistente
+    TaskService taskService; //se importa la clase TaskService con el asistente
 
     //Constructor
-    public TaskController(){
+    //Se agrega la instanciacion automatica del servicio al controlador dado que ya se tiene tambien el repositorio
+    public TaskController(TaskService taskService){
         //Una vez se crea la propiedad/atributo "Servicio" se completa el constructor
-        this.service = new TaskService();
+        //Se modifica para que no cree uno nuevo sino que tome el que ya tiene como atributo
+        this.taskService = /*new TaskService()*/ taskService;
     }
     //Antes de la siguiente linea se debe agregar en dependencies la de web de spring boot para proyectos con maven
     //https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
@@ -30,7 +34,8 @@ public class TaskController {
     peticion GET al puerto donde esta el servidor desplegado (en este caso el puerto 8080) en la ruta /task el sistema
     debera retornar lo especificado en la funcion de a continuacion
     Se puede verificar desde un navegador entrando al localhost:Puerto/recurso (para este caso "localhost:8080/tasks") */
-    public /*String*/ /*Task*/ TaskList TaskList(){ /*se cambia el retorno de "String" a la clase Task para mostar si
+    //Como se cambia y se crea el repositorio, ya la funcion no devuelve un objeto TaskList sino una lista de tareas
+    public /*String*/ /*Task*/ /*TaskList*/ List<Task> TaskList(){ /*se cambia el retorno de "String" a la clase Task para mostar si
         se devuelve la tarea 1*/ /*Al cambiar nuevamente el retorno se modifia de tipo Task a TaskList*/
         /*Se agrega esta linea para verificar como hacer que el ejericio devuelva una tarea, se importa la clase y la
         funcion "LocaDate" con la ayuda del asistente */
@@ -44,7 +49,7 @@ public class TaskController {
         previamente con el controlador */
         /*Como se creo un servicio desde el controlador, todos los metodos del servicio estan disponibles, por esta
         razon se cambia el return y se coloca uno que nos devuelva la lista */
-        return this.service.getTaskList();
+        return this.taskService.getTaskList();
     }
 
 }
