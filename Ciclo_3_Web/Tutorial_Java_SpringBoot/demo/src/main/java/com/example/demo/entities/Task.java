@@ -1,18 +1,30 @@
 package com.example.demo.entities;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table(name="Task")
 public class Task {
     //Atributos
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
+    @Column(name = "description")
     private String description;
+    @Column(name = "done")
     private boolean done;
-    private LocalDate duedate;
+    @Column(name = "dueDate")
+    private LocalDate dueDate;
 
     //Constructores
     public Task(String description, boolean done, LocalDate duedate) {
         this.description = description;
         this.done = done;
-        this.duedate = duedate;
+        this.dueDate = duedate;
+    }
+
+    public Task() {
     }
 
     //Getters y Setters
@@ -33,10 +45,10 @@ public class Task {
     }
 
     public LocalDate getDuedate() {
-        return duedate;
+        return dueDate;
     }
 
     public void setDuedate(LocalDate duedate) {
-        this.duedate = duedate;
+        this.dueDate = duedate;
     }
 }
