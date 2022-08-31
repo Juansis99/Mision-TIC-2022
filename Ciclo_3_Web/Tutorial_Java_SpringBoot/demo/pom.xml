@@ -21,13 +21,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
-		<!-- esta dependencia es para configurar un servidor web con spring boot para un proyecto en java con maven-->
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+<!--		Se agrega esta dependencia para poder tener conexion con bases de datos por JPA-->
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 			<version>2.7.3</version>
+		</dependency>
+<!--		Se agrega esta dependencia para la conexion con bases de datos PostgreSQL-->
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.5.0</version>
 		</dependency>
 
 		<dependency>
