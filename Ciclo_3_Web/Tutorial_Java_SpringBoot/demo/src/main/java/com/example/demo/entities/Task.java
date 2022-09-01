@@ -18,10 +18,10 @@ public class Task {
     private LocalDate dueDate;
 
     //Constructores
-    public Task(String description, boolean done, LocalDate duedate) {
+    public Task(String description, boolean done, LocalDate dueDate) {
         this.description = description;
         this.done = done;
-        this.dueDate = duedate;
+        this.dueDate = dueDate;
     }
 
     public Task() {
@@ -44,11 +44,11 @@ public class Task {
         this.done = done;
     }
 
-    public LocalDate getDuedate() {
+    public LocalDate getDueDate() {
         return dueDate;
     }
 
-    public void setDuedate(LocalDate duedate) {
-        this.dueDate = duedate;
+    public void setDueDate(LocalDate dueDate) {
+        this.dueDate = dueDate;
     }
 }

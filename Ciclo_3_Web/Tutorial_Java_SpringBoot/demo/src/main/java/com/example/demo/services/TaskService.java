@@ -47,4 +47,8 @@ public class TaskService {
         //return this.propositos;
         return this.taskRepository.findAll(); //con esto se va la base de datos y se obtenen todos los tasks de la BD
     }
+    //Se crea la funcion que permite guardar la tarea que viene desde el controlador
+    public Task createTask(Task newTask){
+        return this.taskRepository.save(newTask); //el repositorio toma la tarea nueva que entra y la guarda en la BD
+    }
 }

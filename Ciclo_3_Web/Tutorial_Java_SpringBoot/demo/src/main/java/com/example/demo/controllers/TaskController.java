@@ -8,6 +8,8 @@ import com.example.demo.entities.Task;
 import com.example.demo.entities.TaskList;
 import com.example.demo.services.TaskService;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
@@ -50,6 +52,11 @@ public class TaskController {
         /*Como se creo un servicio desde el controlador, todos los metodos del servicio estan disponibles, por esta
         razon se cambia el return y se coloca uno que nos devuelva la lista */
         return this.taskService.getTaskList();
+    }
+    //Se agrega el metodo para hacer solicitudes POST
+    @PostMapping("/tasks")
+    public Task createTask(@RequestBody Task task){
+        return this.taskService.createTask(task); //Con esto la tarea que llega de postman/insomnia se envia a service para ser guardada
     }
 
 }
