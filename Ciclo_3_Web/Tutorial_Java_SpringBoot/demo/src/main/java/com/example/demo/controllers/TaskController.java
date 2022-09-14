@@ -29,30 +29,31 @@ public class TaskController {
         //Se modifica para que no cree uno nuevo sino que tome el que ya tiene como atributo
         this.taskService = /*new TaskService()*/ taskService;
     }
-    //Antes de la siguiente linea se debe agregar en dependencies la de web de spring boot para proyectos con maven
-    //https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
-    //Una vez se agreguen las dos lineas anteriores, podemos agregar la siguiente anotacion
-    @GetMapping("/tasks") /*con esta linea se especifica que cada que el usuario valla a su navegador y haga una
-    peticion GET al puerto donde esta el servidor desplegado (en este caso el puerto 8080) en la ruta /task el sistema
-    debera retornar lo especificado en la funcion de a continuacion
-    Se puede verificar desde un navegador entrando al localhost:Puerto/recurso (para este caso "localhost:8080/tasks") */
-    //Como se cambia y se crea el repositorio, ya la funcion no devuelve un objeto TaskList sino una lista de tareas
-    public /*String*/ /*Task*/ /*TaskList*/ List<Task> TaskList(){ /*se cambia el retorno de "String" a la clase Task para mostar si
-        se devuelve la tarea 1*/ /*Al cambiar nuevamente el retorno se modifia de tipo Task a TaskList*/
-        /*Se agrega esta linea para verificar como hacer que el ejericio devuelva una tarea, se importa la clase y la
-        funcion "LocaDate" con la ayuda del asistente */
-        /*Task tarea1 = new Task("Aprender Python", false, LocalDate.of(2022,12,31));
-        //Esta creacion de la tarea 1 ya se realiza desde el servicio, por esta razon ya no se requiere tenerla aca
-         */
-        //return "Hola mundo, soy un recurso HTTP"; //se comenta para crear otro return de la tarea 1
-        /*return tarea1;*/ //es para verificar que si podemos devolver la tarea 1 en el servicio web
-        /*Al correr la aplicacon se puede ver que el sistema devuelve en formato JSON los atributos de dicha clase "Task"
-        realmente lo que se encarga de realizar la transformacion del objeto a JSON es la libreria REST que se instalo
-        previamente con el controlador */
-        /*Como se creo un servicio desde el controlador, todos los metodos del servicio estan disponibles, por esta
-        razon se cambia el return y se coloca uno que nos devuelva la lista */
-        return this.taskService.getTaskList();
-    }
+//    //Se comenta este controlador pues se pasa al contrlador del front
+//    //Antes de la siguiente linea se debe agregar en dependencies la de web de spring boot para proyectos con maven
+//    //https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+//    //Una vez se agreguen las dos lineas anteriores, podemos agregar la siguiente anotacion
+//    @GetMapping("/tasks") /*con esta linea se especifica que cada que el usuario valla a su navegador y haga una
+//    peticion GET al puerto donde esta el servidor desplegado (en este caso el puerto 8080) en la ruta /task el sistema
+//    debera retornar lo especificado en la funcion de a continuacion
+//    Se puede verificar desde un navegador entrando al localhost:Puerto/recurso (para este caso "localhost:8080/tasks") */
+//    //Como se cambia y se crea el repositorio, ya la funcion no devuelve un objeto TaskList sino una lista de tareas
+//    public /*String*/ /*Task*/ /*TaskList*/ List<Task> TaskList(){ /*se cambia el retorno de "String" a la clase Task para mostar si
+//        se devuelve la tarea 1*/ /*Al cambiar nuevamente el retorno se modifia de tipo Task a TaskList*/
+//        /*Se agrega esta linea para verificar como hacer que el ejericio devuelva una tarea, se importa la clase y la
+//        funcion "LocaDate" con la ayuda del asistente */
+//        /*Task tarea1 = new Task("Aprender Python", false, LocalDate.of(2022,12,31));
+//        //Esta creacion de la tarea 1 ya se realiza desde el servicio, por esta razon ya no se requiere tenerla aca
+//         */
+//        //return "Hola mundo, soy un recurso HTTP"; //se comenta para crear otro return de la tarea 1
+//        /*return tarea1;*/ //es para verificar que si podemos devolver la tarea 1 en el servicio web
+//        /*Al correr la aplicacon se puede ver que el sistema devuelve en formato JSON los atributos de dicha clase "Task"
+//        realmente lo que se encarga de realizar la transformacion del objeto a JSON es la libreria REST que se instalo
+//        previamente con el controlador */
+//        /*Como se creo un servicio desde el controlador, todos los metodos del servicio estan disponibles, por esta
+//        razon se cambia el return y se coloca uno que nos devuelva la lista */
+//        return this.taskService.getTaskList();
+//    }
     //Se agrega el metodo para hacer solicitudes POST
     @PostMapping("/tasks")
     public Task createTask(@RequestBody Task task){

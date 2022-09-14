@@ -35,6 +35,13 @@
 			<artifactId>postgresql</artifactId>
 			<version>42.5.0</version>
 		</dependency>
+<!--		Este codigo es para agregar la dependencia de thymeleaf-->
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<version>2.7.3</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
