@@ -1,6 +1,6 @@
 <!doctype html>
-<!--Se agrega la referencia de Thymeleaf-->
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--Se agrega la referencia de Thymeleaf, se agrega el modificador sec (security) the thymeleaf-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -24,8 +24,17 @@
         <div class="col-lg-6 mx-auto">
 <!--            estilo personalidado de bootstrap, margen inferior de 4-->
             <p class="lead mb-4">Organiza tus listas de tareas para que nunca se te olvide lo que tienes que hacer.</p>
-<!--            clase boton de bootstrap, boton largo, padding en x de 4, espacio entre objetos de 3-->
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Llévame a la aplicación</button>
+<!--            Se anade el metodo de seguridad para autenticar-->
+            <div sec:authorize="!isAuthenticated()" class="mb-3">
+<!--                Se modifica la referencia de la URL de tasks a la autenticacion de auth0-->
+                <a th:href="@{/oauth2/authorization/auth0}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Inicia sesion</a>
+            </div>
+            <div sec:authorize="isAuthenticated()" class="mb-3">
+<!--                para concatenar strings se pueden poner entre comillas simples y un mas (+) para concatenar en si-->
+                <h3 th:text="'Bienvenido, ' + ${user.getEmail()}" class="mb-3"></h3>
+<!--                Ruta de redireccion, clase boton de bootstrap, boton largo, padding en x de 4, espacio entre objetos de 3-->
+                <a th:href="@{/tasks}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Llévame a la aplicación</a>
+            </div>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Saber mas</button>
         </div>
     </div>

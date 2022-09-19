@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 
 @Service //Se agrega la etiqutea par que java spring boot injecte automaticamente las dependencias
 public class TaskService {
@@ -50,5 +51,20 @@ public class TaskService {
     //Se crea la funcion que permite guardar la tarea que viene desde el controlador
     public Task createTask(Task newTask){
         return this.taskRepository.save(newTask); //el repositorio toma la tarea nueva que entra y la guarda en la BD
+    }
+
+    public Boolean markTaskAsFinished(Long id){
+        Optional<Task> task = this.taskRepository.findById(id);
+        if(task.isPresent()){
+            task.get().setDone(true);
+            this.taskRepository.save(task.get());
+            return true;
+        }
+        return false;
+    }
+
+    public Boolean deleteTask(Long id){
+        this.taskRepository.deleteById(id);
+        return true;
     }
 }

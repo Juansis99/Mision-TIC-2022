@@ -9,7 +9,8 @@ public class Task {
     //Atributos
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    //Se cambia a public para poder obtenerlo desde la url en el despliegue web
+    public long id;
     @Column(name = "description")
     private String description;
     @Column(name = "done")

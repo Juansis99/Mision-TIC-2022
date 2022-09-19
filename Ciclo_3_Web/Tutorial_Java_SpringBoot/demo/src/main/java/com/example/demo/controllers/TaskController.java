@@ -7,10 +7,10 @@ package com.example.demo.controllers;
 import com.example.demo.entities.Task;
 import com.example.demo.entities.TaskList;
 import com.example.demo.services.TaskService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.view.RedirectView;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -54,10 +54,33 @@ public class TaskController {
 //        razon se cambia el return y se coloca uno que nos devuelva la lista */
 //        return this.taskService.getTaskList();
 //    }
-    //Se agrega el metodo para hacer solicitudes POST
+
+//    //Metodo para json data
+//    //Se agrega el metodo para hacer solicitudes POST
+//    @PostMapping("/tasks")
+//    public Task createTask(@RequestBody Task task){
+//        return this.taskService.createTask(task); //Con esto la tarea que llega de postman/insomnia se envia a service para ser guardada
+//    }
+
+    //Metodo para front (form-data)
     @PostMapping("/tasks")
-    public Task createTask(@RequestBody Task task){
-        return this.taskService.createTask(task); //Con esto la tarea que llega de postman/insomnia se envia a service para ser guardada
+    //@ModelAtribute para comunicarse con Thymleaf, @DateTimeFormat para definir el formato de fechas, y una variable tipo model para comunicacion con thymeleaf
+    public RedirectView createTask(@ModelAttribute @DateTimeFormat(pattern = "YYYY-MM-DD") Task task, Model model){
+        model.addAttribute(task);
+        task.setDone(false);
+        this.taskService.createTask(task);
+        return new RedirectView("/tasks");
     }
 
+    @PatchMapping("/tasks/{id}")
+    public RedirectView updateTask(@PathVariable("id") Long id){
+        this.taskService.markTaskAsFinished(id);
+        return new RedirectView("/tasks");
+    }
+
+    @DeleteMapping("tasks/{id}")
+    public RedirectView deleteTask(@PathVariable("id") Long id){
+        this.taskService.deleteTask(id);
+        return new RedirectView("/tasks");
+    }
 }
