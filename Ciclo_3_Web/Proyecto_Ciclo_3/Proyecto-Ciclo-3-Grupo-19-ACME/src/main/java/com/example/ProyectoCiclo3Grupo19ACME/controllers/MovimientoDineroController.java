@@ -6,22 +6,27 @@ import com.example.ProyectoCiclo3Grupo19ACME.entities.MovimientoDinero;
 import com.example.ProyectoCiclo3Grupo19ACME.services.EmpleadoService;
 import com.example.ProyectoCiclo3Grupo19ACME.services.EmpresaService;
 import com.example.ProyectoCiclo3Grupo19ACME.services.MovimientoDineroService;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.view.RedirectView;
 
 import java.util.List;
 
 @RestController
 public class MovimientoDineroController {
+    //Atributos
     MovimientoDineroService movimientoDineroService;
     EmpresaService empresaService;
     EmpleadoService empleadoService;
 
+    //Constructores
     public MovimientoDineroController(MovimientoDineroService movimientoDineroService, EmpresaService empresaService, EmpleadoService empleadoService){
         this.movimientoDineroService = movimientoDineroService;
         this.empleadoService = empleadoService;
         this.empresaService = empresaService;
     }
 
+    //Metodos
     @GetMapping("/MovimientoDinero")
     public List<MovimientoDinero> getMovimientoDineroList(){
         return this.movimientoDineroService.getMovimientoDineroList();
@@ -32,29 +37,41 @@ public class MovimientoDineroController {
         return this.movimientoDineroService.getMovimientoDineroByIdEmpresaList(id);
     }
 
-    @PostMapping("/enterprises/{id}/movements")
-    public MovimientoDinero createMovimientoDineroByIdEmprsa(@PathVariable int id, @RequestBody MovimientoDinero movimientoDinero){
-        Empresa empresa = empresaService.getEmpresaById(id);
-        Empleado empleado = empleadoService.getEmpleadoById(movimientoDinero.getEmpleado().getIdEmpleado());
-        if (empleado.getEmpresa().getNit() == id){
-            movimientoDinero.setEmpresa(empresa);
-            movimientoDinero.setEmpleado(empleado);
-            return this.movimientoDineroService.createMovimientoDinero(movimientoDinero);
-        }
-        else {
-            throw new RuntimeException();
-        }
+//    @PostMapping("/enterprises/{id}/movements")
+//    public MovimientoDinero createMovimientoDineroByIdEmprsa(@PathVariable int id, @RequestBody MovimientoDinero movimientoDinero){
+//        Empresa empresa = empresaService.getEmpresaById(id);
+//        Empleado empleado = empleadoService.getEmpleadoById(movimientoDinero.getEmpleado().getIdEmpleado());
+//        if (empleado.getEmpresa().getNit() == id){
+//            movimientoDinero.setEmpresa(empresa);
+//            movimientoDinero.setEmpleado(empleado);
+//            return this.movimientoDineroService.createMovimientoDinero(movimientoDinero);
+//        }
+//        else {
+//            throw new RuntimeException();
+//        }
+//    }
+
+    @PostMapping("/home/transaccion")
+    public RedirectView createMovimientoDinero(@ModelAttribute MovimientoDinero movimientoDinero, Model model){
+        this.movimientoDineroService.createMovimientoDinero(movimientoDinero);
+        return new RedirectView("/home/transaccion");
     }
 
-    @DeleteMapping("/enterprises/{id}/movements")
-    public void deleteMovimientoDineroByIdEmprsa(@PathVariable int id, @RequestBody MovimientoDinero movimientoDinero){
-        MovimientoDinero movimientoDinero1 = movimientoDineroService.getMovimientoDineroById(movimientoDinero.getId());
-        if (movimientoDinero1.getEmpresa().getNit() == id){
-            this.movimientoDineroService.deleteMovimientoDineroByIdEmprsa(movimientoDinero.getId());
-        }
-        else {
-            throw new RuntimeException();
-        }
+//    @DeleteMapping("/enterprises/{id}/movements")
+//    public void deleteMovimientoDineroByIdEmprsa(@PathVariable int id, @RequestBody MovimientoDinero movimientoDinero){
+//        MovimientoDinero movimientoDinero1 = movimientoDineroService.getMovimientoDineroById(movimientoDinero.getId());
+//        if (movimientoDinero1.getEmpresa().getNit() == id){
+//            this.movimientoDineroService.deleteMovimientoDineroByIdEmprsa(movimientoDinero.getId());
+//        }
+//        else {
+//            throw new RuntimeException();
+//        }
+//    }
+
+    @DeleteMapping("/home/transaccion/{id}")
+    public RedirectView deleteMovimientoDineroByIdEmprsa(@PathVariable long id){
+        movimientoDineroService.deleteMovimientoDineroById(id);
+        return new RedirectView("/home/transaccion");
     }
 
     @PatchMapping("/enterprises/{id}/movements")

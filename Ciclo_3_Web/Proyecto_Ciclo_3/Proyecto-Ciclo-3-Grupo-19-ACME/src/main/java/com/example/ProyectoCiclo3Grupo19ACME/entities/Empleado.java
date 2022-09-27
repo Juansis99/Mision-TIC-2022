@@ -6,12 +6,12 @@ import java.util.List;
 @Entity
 @Table
 public class Empleado {
-    //Creacion de la Clase Empleado
+    //Atributos
     @Id
     private int idEmpleado;
     @Column(nullable = false)
     private String nombrEmpleado;
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     private String correoEmpleado;
     @Column(nullable = false)
     @Enumerated(value = EnumType.STRING)
@@ -19,7 +19,6 @@ public class Empleado {
     @ManyToOne
     @JoinColumn(name = "emp_nit_empresa",nullable = false,referencedColumnName = "nit")
     private Empresa empresaEmpl;
-
     @OneToMany(mappedBy = "empleadoMov")
     private List<MovimientoDinero> movimientoDineroList;
 

@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface EmpresaServiceEInterface {
+    //Metodos
     List<Empresa> listEmpresa();
     Empresa createEmpresa(Empresa empresa);
     Empresa getEmpresaById(int nit);

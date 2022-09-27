@@ -1,28 +1,38 @@
 package com.example.ProyectoCiclo3Grupo19ACME.services;
+
 import com.example.ProyectoCiclo3Grupo19ACME.entities.Empresa;
 import com.example.ProyectoCiclo3Grupo19ACME.repositories.EmpresaRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ReflectionUtils;
+
 import java.lang.reflect.Field;
 import java.util.*;
 @Service
 public class EmpresaService implements EmpresaServiceEInterface {
+    //Atributos
     private EmpresaRepository empresaRepository;
+
+    //Constructores
     public EmpresaService(EmpresaRepository empresaRepository){
         this.empresaRepository = empresaRepository;
     }
+
+    //Metodos
     @Override
     public List<Empresa> listEmpresa(){
         return this.empresaRepository.findAll();
     }
+
     @Override
     public Empresa getEmpresaById(int nit){
         return this.empresaRepository.findById(nit).get();
     }
+
     @Override
     public Empresa createEmpresa(Empresa empresa){
         return this.empresaRepository.save(empresa);
     }
+
     @Override
     public Empresa updateEmpresaById(Integer nit, Map<Object, Object> objectMap){
         Empresa empresa =empresaRepository.findById(nit).get();
@@ -33,6 +43,7 @@ public class EmpresaService implements EmpresaServiceEInterface {
         });
         return empresaRepository.save(empresa);
     }
+
     @Override
     public void deleteEmpresaById(Integer nit){
         empresaRepository.deleteById(nit);

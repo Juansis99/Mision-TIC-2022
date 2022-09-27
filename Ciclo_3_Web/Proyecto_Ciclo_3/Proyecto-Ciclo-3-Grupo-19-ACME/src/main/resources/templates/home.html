@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" th:href="@{/img/icono.ico}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/static/styles.css}">
+    <title>Home-Acme</title>        
+</head>
+<body>
+    <main class="container">
+        <div class="row mt-1 text-danger text-center">
+            <h2>Acme Company S.A.S</h2>
+        </div>
+        <div sec:authorize="!isAuthenticated()" class="px-4 py-5 my-5 text-center">
+            <h2 class="display-6 fw-bold mb-6">Usuario no identificado</h2>
+            <a th:href="@{/oauth2/authorization/auth0}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Iniciar sesion</a>
+        </div>
+        <div sec:authorize="isAuthenticated()">
+            <div class="row">
+                <div class="col-sm-3 d-inline-block border-end" th:switch="${empleadoLogin.rolEmpleado.getDisplayValue()}">
+                    <img src="/img/Acme.png" alt="logo" height="80" class="my-4">
+                    <a href="/home" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Home</a>
+                    <div th:case="Admin">
+                        <a href="/home/empresas" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Empresas</a>
+                        <a href="/home/usuarios" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Usuarios</a>
+                        <a href="/home/transaccion" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Ingresos y egresos</a>
+                    </div>
+                    <div th:case="Operario">
+                        <a href="/home/empresas" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Empresas</a>
+                        <a href="/home/usuarios" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Usuarios</a>
+                        <a href="/home/transaccion" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Ingresos y egresos</a>
+                    </div>
+                    <br><br><br><br><br><br><br>
+                </div>
+                <div class="col-sm-9 d-flex justify-content-center align-items-center  gap-3" th:switch="${empleadoLogin.rolEmpleado.getDisplayValue()}">
+                    <div>
+                        <p class="shadow p-3 mb-5 bg-body rounded">Esta seccion es para mostrar la funcionalidad de renderizado condicional de acuerdo al rol
+                            del usuario que ingrese a la aplicacion, solo esta en esta seccion para permitir al evaluador
+                            y publico en general puedan interactuar con la aplicacion</p>
+                        <p class="shadow p-3 mb-5 bg-body rounded">Para esta aplicacion hay 3 usuarios permitidos: Admin, Operario y Default, cada uno de los cuales
+                            tiene una tarjeta unica que mostrara la informacion del usuario logeado</p>
+                        <p class="shadow p-3 mb-5 bg-body rounded">Para verificar que se muestran cada una de las tarjetas segun el usuario, se pueden crear
+                            Empleados nuevos con el usuario propio de inicio de sesion con el rol que se desee validar</p>
+                    </div>
+                    <div>
+                        <div th:case="Admin" class="card" style="width: 18rem;">
+                            <img src="/img/aprobar.png" class="card-img-top" alt="Usuario Admin">
+                            <div class="card-body">
+                                <h5 class="card-title">Usuario Administrador</h5>
+                                <p class="card-text">Este contenido solo se mostrara para el usuario administrador</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item" th:text="${empleadoLogin.nombrEmpleado}"></li>
+                                <li class="list-group-item" th:text="${empleadoLogin.correoEmpleado}"></li>
+                                <li class="list-group-item" th:text="${empleadoLogin.empresa.name}"></li>
+                            </ul>
+                        </div>
+                        <div th:case="Operario" class="card" style="width: 18rem;">
+                            <img src="/img/limitado.png" class="card-img-top" alt="Usuario Operario">
+                            <div class="card-body">
+                                <h5 class="card-title">Usuario Operario</h5>
+                                <p class="card-text">Este contenido solo se mostrara para el usuario operario.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item" th:text="${empleadoLogin.nombrEmpleado}"></li>
+                                <li class="list-group-item" th:text="${empleadoLogin.correoEmpleado}"></li>
+                                <li class="list-group-item" th:text="${empleadoLogin.empresa.name}"></li>
+                            </ul>
+                        </div>
+                        <div th:case="Default" class="card" style="width: 18rem;">
+                            <img src="/img/denegado.png" class="card-img-top" alt="Usuario Sin permisos">
+                            <div class="card-body">
+                                <h5 class="card-title">Usuario sin permisos</h5>
+                                <p class="card-text">Este contenido solo se mostrara para el usuario sin permisos.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item" th:text="${empleadoLogin.nombrEmpleado}"></li>
+                                <li class="list-group-item" th:text="${empleadoLogin.correoEmpleado}"></li>
+                                <li class="list-group-item">Sin Empresa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>    
+</body>
+<footer class="d-flex justify-content-center">
+    ©™ Producto creado por grupo ACME S.A.S
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>

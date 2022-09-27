@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface EmpleadoServiceInterface {
+    //Metodos
     List<Empleado> listEmpleado();
     Empleado createEmpleado(Empleado empleado);
     Empleado getEmpleadoById(int idEmpleado);

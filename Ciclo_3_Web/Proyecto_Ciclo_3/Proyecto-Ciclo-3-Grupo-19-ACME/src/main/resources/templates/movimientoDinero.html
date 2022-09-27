@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" th:href="@{/img/icono.ico}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/static/styles.css}">
+    <title>Nuevo Movimiento</title>        
+</head>
+<body>
+    <main class="container">
+        <div class="row mt-1 text-danger text-center">
+            <h2>Acme Company S.A.S</h2>
+        </div>
+        <div sec:authorize="!isAuthenticated()" class="px-4 py-5 my-5 text-center">
+            <h2 class="display-6 fw-bold mb-6">Usuario no identificado</h2>
+            <a th:href="@{/oauth2/authorization/auth0}" type="button" class="btn btn-primary btn-lg px-4 gap-3">Iniciar sesion</a>
+        </div>
+        <div sec:authorize="isAuthenticated()">
+            <div class="row">
+                <div class="col-sm-3 d-inline-block border-end" th:switch="${empleadoLogin.rolEmpleado.getDisplayValue()}">
+                    <img src="/img/Acme.png" alt="logo" height="80" class="my-4">
+                    <a href="/home" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Home</a>
+                    <div th:case="Admin">
+                        <a href="/home/empresas" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Empresas</a>
+                        <a href="/home/usuarios" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Usuarios</a>
+                        <a href="/home/transaccion" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Ingresos y egresos</a>
+                    </div>
+                    <div th:case="Operario">
+                        <a href="/home/empresas" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Empresas</a>
+                        <a href="/home/usuarios" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Usuarios</a>
+                        <a href="/home/transaccion" type="button" class="btn btn-secondary btn-lg btn-block w-100 my-3">Ingresos y egresos</a>
+                    </div>
+                    <br><br><br><br><br><br><br>
+                </div>
+                <div class="col-sm-9 d-block w-50 mx-5" th:switch="${empleadoLogin.rolEmpleado.getDisplayValue()}">
+                    <div th:case="Admin">
+                        <p><h4>Sistema de gestión de ingresos y gastos</h4></p>
+                        <h5 class="float-end"><u>Ingresos & Egresos</u></h5><br><br><br><br>
+                        <section class="d-flex flex-wrap justify-content-center align-items-center">
+                            <h3 class="w-100 justify-content-center align.align-items-center"><b>Nuevo Movimiento Dinero</b></h3>
+                            <form th:action="@{/home/transaccion}" th:method="post" th:object="${movimiento}">
+                                <label class="w-100">Monto</label>
+                                <input th:field="*{monto}" type="text" class="w-100" placeholder="Monto de la transacción">
+                                <label class="w-100">Concepto</label>
+                                <input th:field="*{concepto}" type="text" class="w-100" placeholder="Concepto de la transacción">
+                                <label class="w-100">Empresa</label>
+                                <input th:field="*{empresa.nit}" type="number" class="w-100" placeholder="Numero de identificacion tributaria de la empresa">
+                                <label class="w-100">Empleado</label>
+                                <input th:field="*{empleado.idEmpleado}" type="number" class="w-100" placeholder="Numero de identificacion del usuario"><br><br>
+                                <button type="submit" class="btn btn-secondary">Agregar Movimiento</button>
+                                <a href="/home/transaccion" type="button" class="btn btn-secondary float-end">Cancelar</a>
+                            </form>
+                        </section>
+                    </div>
+                    <div th:case="Operario">
+                        <p><h4>Sistema de gestión de ingresos y gastos</h4></p>
+                        <h5 class="float-end"><u>Ingresos & Egresos</u></h5><br><br><br><br>
+                        <section class="d-flex flex-wrap justify-content-center align-items-center">
+                            <h3 class="w-100 justify-content-center align.align-items-center"><b>Nuevo Movimiento Dinero</b></h3>
+                            <form th:action="@{/home/transaccion}" th:method="post" th:object="${movimiento}">
+                                <label class="w-100">Monto</label>
+                                <input th:field="*{monto}" type="text" class="w-100" placeholder="Monto de la transacción">
+                                <label class="w-100">Concepto</label>
+                                <input th:field="*{concepto}" type="text" class="w-100" placeholder="Concepto de la transacción">
+                                <label class="w-100">Empresa</label>
+                                <input th:field="*{empresa.nit}" type="number" class="w-100" placeholder="Numero de identificacion tributaria de la empresa">
+                                <label class="w-100">Empleado</label>
+                                <input th:field="*{empleado.idEmpleado}" type="number" class="w-100" placeholder="Numero de identificacion del usuario"><br><br>
+                                <button type="submit" class="btn btn-secondary">Agregar Movimiento</button>
+                                <a href="/home/transaccion" type="button" class="btn btn-secondary float-end">Cancelar</a>
+                            </form>
+                        </section>
+                    </div>
+                    <div th:case="Default" class="shadow-lg p-3 mb-5 mt-3 bg-body rounded">Usuario no Autorizado</div>
+                </div>
+            </div>
+        </div>
+    </main>    
+</body>
+<footer class="d-flex justify-content-center">
+    ©™ Producto creado por grupo ACME S.A.S
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>

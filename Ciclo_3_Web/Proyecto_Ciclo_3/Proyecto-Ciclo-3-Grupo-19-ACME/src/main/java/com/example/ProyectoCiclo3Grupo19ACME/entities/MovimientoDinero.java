@@ -5,7 +5,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "movimiento_dinero")
 public class MovimientoDinero {
-    //Creacion de la clase MovimientoDinero
     //Atributos
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

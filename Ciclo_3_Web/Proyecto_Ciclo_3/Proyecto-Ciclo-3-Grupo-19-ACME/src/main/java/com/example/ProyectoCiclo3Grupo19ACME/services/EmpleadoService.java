@@ -11,23 +11,34 @@ import java.util.Map;
 
 @Service
 public class EmpleadoService implements EmpleadoServiceInterface {
+    //Atributos
     private EmpleadoRepository empleadoRepository;
 
+    //Constructores
     public EmpleadoService(EmpleadoRepository empleadoRepository){
         this.empleadoRepository = empleadoRepository;
     }
+
+    //Metodos
     @Override
     public List<Empleado> listEmpleado(){
         return this.empleadoRepository.findAll();
     }
+
     @Override
     public Empleado getEmpleadoById(int idEmpleado){
         return this.empleadoRepository.findById(idEmpleado).get();
     }
+
+    public Empleado findEmpleadoByCorreoEmpleado(String email){
+        return this.empleadoRepository.findByCorreoEmpleado(email);
+    }
+
     @Override
     public Empleado createEmpleado(Empleado empleado){
         return this.empleadoRepository.save(empleado);
     }
+
     @Override
     public Empleado updateEmpleadoById(Integer idEmpleado, Map<Object, Object> objectMap){
         Empleado empleado = empleadoRepository.findById(idEmpleado).get();
@@ -38,6 +49,7 @@ public class EmpleadoService implements EmpleadoServiceInterface {
         });
         return empleadoRepository.save(empleado);
     }
+
     @Override
     public void deleteEmpleadoById(Integer idEmpleado){
         empleadoRepository.deleteById(idEmpleado);

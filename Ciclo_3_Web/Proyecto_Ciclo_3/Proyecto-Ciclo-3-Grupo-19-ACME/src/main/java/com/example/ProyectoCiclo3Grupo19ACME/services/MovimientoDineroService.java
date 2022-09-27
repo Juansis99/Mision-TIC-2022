@@ -8,23 +8,30 @@ import java.util.List;
 
 @Service
 public class MovimientoDineroService implements MovimientoDineroServiceInterface{
+    //Atributos
     private MovimientoDineroRepository movimientoDineroRepository;
 
+    //Constructores
     public MovimientoDineroService(MovimientoDineroRepository movimientoDineroRepository) {
         this.movimientoDineroRepository = movimientoDineroRepository;
     }
+
+    //Metodos
     @Override
     public List<MovimientoDinero> getMovimientoDineroList(){
         return this.movimientoDineroRepository.findAll();
     }
+
     @Override
     public MovimientoDinero createMovimientoDinero(MovimientoDinero movimientoDinero){
         return this.movimientoDineroRepository.save(movimientoDinero);
     }
+
     @Override
     public List<MovimientoDinero> getMovimientoDineroByIdEmpresaList(int nit_empresa){
         return this.movimientoDineroRepository.getMovimientoDineroByIdEmpresaList(nit_empresa);
     }
+
     @Override
     public void deleteMovimientoDineroByIdEmprsa(long id){
         this.movimientoDineroRepository.deleteById(id);
@@ -33,5 +40,10 @@ public class MovimientoDineroService implements MovimientoDineroServiceInterface
     @Override
     public MovimientoDinero getMovimientoDineroById(long id){
         return this.movimientoDineroRepository.findById(id).get();
+    }
+
+    @Override
+    public void deleteMovimientoDineroById(long id){
+        this.movimientoDineroRepository.deleteById(id);
     }
 }
