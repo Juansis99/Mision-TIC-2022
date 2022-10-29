@@ -1,4 +1,3 @@
-
 Ciclo 1 - Python/Prueba.py
 Ciclo 1 - Python/Semana 01/01.01.01 - Breve Introducción a la Ingeniería de Software.pdf
 Ciclo 1 - Python/Semana 01/01.01.02 - Guide to the Software Engineering Body of Knowledge 3.0.pdf
@@ -85,14 +84,7 @@ Ciclo 2 - Java/Semana 3/01.01.01 - Lectura 1. Herencia en Java.pdf
 Ciclo 2 - Java/Semana 3/01.02.01 - Lectura 2. Interfaces y Clases Abstractas.pdf
 Ciclo 2 - Java/Semana 3/02.01.01 - Lectura 3. La clase ArrayList.pdf
 Ciclo 2 - Java/Semana 3/02.02.01 - Lectura 4. Polimorfismo.pdf
-Ciclo 2 - Java/Semana 3/Colecciones/1.jpg
-Ciclo 2 - Java/Semana 3/Colecciones/2.jpg
-Ciclo 2 - Java/Semana 3/Colecciones/3.jpg
-Ciclo 2 - Java/Semana 3/Colecciones/4.jpg
-Ciclo 2 - Java/Semana 3/Colecciones/5.jpg
-Ciclo 2 - Java/Semana 3/Colecciones/6.jpg
-Ciclo 2 - Java/Semana 3/Colecciones/7.jpg
-Ciclo 2 - Java/Semana 3/Colecciones/8.jpg
+Ciclo 2 - Java/Semana 3/Colecciones/*
 Ciclo 2 - Java/Semana 4/01.01.01 - Lectura1. Introducción a las Interfaces Gráficas con Swing.pdf
 Ciclo 2 - Java/Semana 4/01.03.01 - Introduccion a Swing.pdf
 Ciclo 2 - Java/Semana 4/01.04.01 - Interfaces graficas de usuario con java.pdf
@@ -112,159 +104,12 @@ Ciclo 2 - Java/Semana 7/01.02.01 - Lectura 2. Introducción a Hibernate.pdf
 Ciclo 2 - Java/SumarDosNumeros.java
 Ciclo 2 - Java/TiposDeDatos.java
 Ciclo 2 - Java/UnirDosTextos.java
-Ciclo_3_Web/Clases/Clase20220813AplicacionUnoRepositorio/.idea/misc.xml
-Ciclo_3_Web/Clases/Clase20220813AplicacionUnoRepositorio/.idea/modules.xml
-Ciclo_3_Web/Clases/Clase20220813AplicacionUnoRepositorio/.idea/vcs.xml
-Ciclo_3_Web/Clases/Clase20220813AplicacionUnoRepositorio/.idea/workspace.xml
-Ciclo_3_Web/Clases/Clase20220813AplicacionUnoRepositorio/Clase20220813AplicacionUnoRepositorio.iml
-Ciclo_3_Web/Clases/Clase20220813AplicacionUnoRepositorio/src/Main.java
-Ciclo_3_Web/Clases/Clase20220813AplicacionUnoRepositorio/src/NuevaClase.java
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/.idea/misc.xml
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/.idea/modules.xml
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/.idea/vcs.xml
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/.idea/workspace.xml
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/Clase20220820POOInterfaces.iml
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/src/Automovil.java
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/src/Main.java
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/src/Vehiculo.java
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/src/VehiculoTerrestre.java
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/.idea/misc.xml
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/.idea/modules.xml
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/.idea/vcs.xml
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/.idea/workspace.xml
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/Clase20220820RepasoPOO.iml
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/out/production/Clase20220820RepasoPOO/Admin.class
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/out/production/Clase20220820RepasoPOO/Main.class
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/out/production/Clase20220820RepasoPOO/Perro.class
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/src/Admin.java
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/src/Main.java
-Ciclo_3_Web/Clases/Clase20220820RepasoPOO/src/Perro.java
+Ciclo_3_Web/Clases/*
 Ciclo_3_Web/Proyecto_Ciclo_3/C3 - Logística de evaluación.pdf
 Ciclo_3_Web/Semana_01/01.01.01 - Lectura. Metodología Scrum.pdf
 Ciclo_3_Web/Semana_01/01.01.02 - Scrum Guide.pdf
 Ciclo_3_Web/Semana_01/SCRUM.pptx
-Libros Generales/AlgorithmsNotesForProfessionals.pdf
-Libros Generales/Algoritmos_a_fondo_Con_implementaciones (1).pdf
-Libros Generales/Algoritmos_a_fondo_Con_implementaciones.pdf
-Libros Generales/AndroidNotesForProfessionals.pdf
-Libros Generales/Angular2NotesForProfessionals.pdf
-Libros Generales/AngularJSNotesForProfessionals.pdf
-Libros Generales/BashNotesForProfessionals.pdf
-Libros Generales/CNotesForProfessionals.pdf
-Libros Generales/CPlusPlusNotesForProfessionals.pdf
-Libros Generales/CSharpNotesForProfessionals.pdf
-Libros Generales/CSSNotesForProfessionals.pdf
-Libros Generales/DotNETFrameworkNotesForProfessionals.pdf
-Libros Generales/EntityFrameworkNotesForProfessionals.pdf
-Libros Generales/ExcelVBANotesForProfessionals.pdf
-Libros Generales/GitNotesForProfessionals.pdf
-Libros Generales/HaskellNotesForProfessionals.pdf
-Libros Generales/HibernateNotesForProfessionals.pdf
-Libros Generales/HTML5CanvasNotesForProfessionals.pdf
-Libros Generales/HTML5NotesForProfessionals.pdf
-Libros Generales/iOSNotesForProfessionals.pdf
-Libros Generales/Java_a_fondo_Sznajdleder_Pablo.pdf
-Libros Generales/JavaEENotesForProfessionals.pdf
-Libros Generales/JavaNotesForProfessionals.pdf
-Libros Generales/JavaScriptNotesForProfessionals.pdf
-Libros Generales/jQueryNotesForProfessionals.pdf
-Libros Generales/KotlinNotesForProfessionals.pdf
-Libros Generales/LaTeXNotesForProfessionals.pdf
-Libros Generales/LinuxNotesForProfessionals.pdf
-Libros Generales/Material_de_apoyo_Curso_JAVA_2004_proyec.pdf
-Libros Generales/MATLABNotesForProfessionals.pdf
-Libros Generales/MicrosoftSQLServerNotesForProfessionals.pdf
-Libros Generales/MongoDBNotesForProfessionals.pdf
-Libros Generales/MySQLNotesForProfessionals.pdf
-Libros Generales/NodeJSNotesForProfessionals.pdf
-Libros Generales/ObjectiveCNotesForProfessionals.pdf
-Libros Generales/OracleDatabaseNotesForProfessionals.pdf
-Libros Generales/ebook-DS-24_alura-latam-alumno-092021.pdf
-Libros Generales/PerlNotesForProfessionals.pdf
-Libros Generales/PHPNotesForProfessionals.pdf
-Libros Generales/PostgreSQLNotesForProfessionals.pdf
-Libros Generales/PowerShellNotesForProfessionals.pdf
-Libros Generales/PythonNotesForProfessionals.pdf
-Libros Generales/ReactJSNotesForProfessionals.pdf
-Libros Generales/ReactNativeNotesForProfessionals.pdf
-Libros Generales/RNotesForProfessionals.pdf
-Libros Generales/RubyNotesForProfessionals.pdf
-Libros Generales/RubyOnRailsNotesForProfessionals.pdf
-Libros Generales/SpringFrameworkNotesForProfessionals.pdf
-Libros Generales/SQLNotesForProfessionals.pdf
-Libros Generales/SwiftNotesForProfessionals.pdf
-Libros Generales/TypeScriptNotesForProfessionals.pdf
-Libros Generales/VBANotesForProfessionals.pdf
-Libros Generales/VisualBasic_NETNotesForProfessionals.pdf
-Libros Generales/XamarinFormsNotesForProfessionals.pdf
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/.idea/uiDesigner.xml
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/out/production/Clase20220820POOInterfaces/Automovil.class
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/out/production/Clase20220820POOInterfaces/Avion.class
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/out/production/Clase20220820POOInterfaces/IAvion.class
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/out/production/Clase20220820POOInterfaces/IVehiculoTerrestre.class
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/out/production/Clase20220820POOInterfaces/Main.class
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/out/production/Clase20220820POOInterfaces/Vehiculo.class
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/src/Avion.java
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/src/IAvion.java
-Ciclo_3_Web/Clases/Clase20220820POOInterfaces/src/IVehiculoTerrestre.java
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/.idea/compiler.xml
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/.idea/encodings.xml
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/.idea/jarRepositories.xml
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/.idea/misc.xml
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/.idea/vcs.xml
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/.idea/workspace.xml
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/.mvn/wrapper/maven-wrapper.jar
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/.mvn/wrapper/maven-wrapper.properties
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/HELP.md
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/mvnw
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/mvnw.cmd
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/pom.xml
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/src/main/java/com/example/Clase20220825Proyecto01SpringBoot/Clase20220825Proyecto01SpringBootApplication.java
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/src/main/resources/application.properties
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/src/test/java/com/example/Clase20220825Proyecto01SpringBoot/Clase20220825Proyecto01SpringBootApplicationTests.java
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/target/classes/application.properties
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/target/classes/com/example/Clase20220825Proyecto01SpringBoot/Clase20220825Proyecto01SpringBootApplication.class
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/src/main/java/com/example/Clase20220825Proyecto01SpringBoot/EjemploUno.java
-Ciclo_3_Web/Clases/Clase20220825Proyecto01SpringBoot/target/classes/com/example/Clase20220825Proyecto01SpringBoot/EjemploUno.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa.sql
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/.idea/compiler.xml
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/.idea/encodings.xml
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/.idea/jarRepositories.xml
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/.idea/misc.xml
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/.idea/vcs.xml
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/.idea/workspace.xml
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/.mvn/wrapper/maven-wrapper.jar
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/.mvn/wrapper/maven-wrapper.properties
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/HELP.md
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/mvnw
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/mvnw.cmd
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/pom.xml
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/Clase20220827ProyectoCooperativaApplication.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/application.properties
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/test/java/com/example/Clase20220827ProyectoCooperativa/Clase20220827ProyectoCooperativaApplicationTests.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/application.properties
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/Clase20220827ProyectoCooperativaApplication.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/entidades/Cliente.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/entidades/Creditos.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/entidades/LineasDeCredito.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/repositorio/RepositorioCliente.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/servicios/ServicioCliente.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/servicios/ServicioImpCliente.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/entidades/Cliente.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/entidades/Creditos.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/entidades/LineasDeCredito.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/controlador/ControladorCliente.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/controlador/ControladorCliente.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/repositorio/RepositorioCliente.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/servicios/ServicioCliente.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/servicios/ServicioImpCliente.class
-Ciclo 1 - Python/Direktio/Direktio.py
-Ciclo 1 - Python/Direktio/m_persona.csv
-Ciclo 1 - Python/Direktio/p_rangos.xlsx
-Ciclo 1 - Python/Direktio/Prueba tecnica de datos.docx
-Ciclo 1 - Python/Direktio/registros.csv
-Ciclo 1 - Python/Direktio/t_antropometricos.csv
-Ciclo 1 - Python/Direktio/t_laboratorios.csv
+Libros Generales/*
 Ciclo_3_Web/Semana_04/Css/Reset.css
 Ciclo_3_Web/Semana_04/Css/Styles.css
 Ciclo_3_Web/Semana_04/Fonts/MsMadi-Regular.ttf
@@ -274,76 +119,12 @@ Ciclo_3_Web/Semana_04/Imagenes/workplace-gbbc2af86f_1920.jpg
 Ciclo_3_Web/Semana_04/index.html
 Ciclo_3_Web/Semana_04/Css/stylesfrm.css
 Ciclo_3_Web/Semana_04/frmcliente.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/controlador/FrontController.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Css/Reset.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Css/Styles.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Css/stylesfrm.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Css/stylestabla.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Fonts/MsMadi-Regular.ttf
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Css/stylestabla.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Fonts/OFL.txt
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Imagenes/offer_discount_sales_proc_icon_228008.png
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Imagenes/workplace-gbbc2af86f_1920.jpg
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/frmcliente.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/index.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Css/stylestabla.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/tabla.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/controlador/FrontController.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/static/Css/Reset.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/static/Css/Styles.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/static/Css/stylesfrm.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/static/Css/stylestabla.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/static/Fonts/MsMadi-Regular.ttf
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/static/Fonts/OFL.txt
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/static/Imagenes/workplace-gbbc2af86f_1920.jpg
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/templates/frmcliente.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/templates/index.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/templates/tabla.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/static/Imagenes/offer_discount_sales_proc_icon_228008.png
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/tabla.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Css/stylestabla.css
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/static/Css/stylestabla.css
-Ciclo 1 - Python/Direktio.rar
-Ciclo 1 - Python/Direktio/DirektioPunto1Registros.csv
-Ciclo 1 - Python/Direktio/DirektioPunto1Registros.py
-Ciclo 1 - Python/Direktio/DirektioPunto2Propagacion.csv
-Ciclo 1 - Python/Direktio/DirektioPunto2Propagacion.py
-Ciclo 1 - Python/Direktio/DirektioPunto3Laboratorio.py
-Ciclo 1 - Python/Direktio/DirektioPunto3LaboratorioInterpretacion.csv
-Ciclo 1 - Python/Direktio/DirektioPunto3LaboratorioResumen.csv
-Ciclo 1 - Python/Direktio/prueba.py
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/frmactualizar.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/taclientes.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/taclientes.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/templates/cliente.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/templates/frmactualizar.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/templates/taclientes.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/taclientes.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/templates/cliente.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/cliente.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/cliente.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/templates/cliente.html
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/Procfile
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/.idea/uiDesigner.xml
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/entidades/Usuario.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/repositorio/RepositorioUsuario.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/SecurityConfig.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/java/com/example/Clase20220827ProyectoCooperativa/servicios/ServicioImpUsuario.java
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/src/main/resources/application.yml
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/system.properties
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/application.yml
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/entidades/Usuario.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/repositorio/RepositorioUsuario.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/SecurityConfig.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/target/classes/com/example/Clase20220827ProyectoCooperativa/servicios/ServicioImpUsuario.class
-Ciclo_3_Web/Clases/Clase20220827ProyectoCooperativa/
 Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 1/Sprint1_Acme.docx
 Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 2/Sprint2_Acme.docx
 Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 3/Diagrama Entidad-Relacion.jfif
 Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 3/Sprint3_Acme.docx
 Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 4/Sprint4_Acme.docx
-Ciclo_4a_Aplicaciones_Web/MiPrimeraWeb/index.html
-Ciclo_4a_Aplicaciones_Web/MiPrimeraWeb/js/index.js
+Ciclo_4a_Aplicaciones_Web/MiPrimeraWeb/*
 Ciclo_4a_Aplicaciones_Web/Semana_01/00.01.01 - SCRUM MF1.pdf
 Ciclo_4a_Aplicaciones_Web/Semana_01/00.01.02 - SCRUM MF2.pdf
 Ciclo_4a_Aplicaciones_Web/Semana_01/00.01.03 - JavaScript MF3.pdf
@@ -351,156 +132,29 @@ Ciclo_4a_Aplicaciones_Web/Semana_01/00.01.04 - Glosario SCRUM.pdf
 Ciclo_4a_Aplicaciones_Web/Semana_01/00.01.05 - Glosario JavaScript.pdf
 Ciclo_4a_Aplicaciones_Web/Semana_01/00.02.01 - 2020 Scrum Guide Spanish Latin South American.pdf
 Ciclo_4a_Aplicaciones_Web/Semana_01/00.02.02 - scrum manager historias usuario.pdf
-Ciclo_4a_Aplicaciones_Web/MiPrimeraWeb/css/normalize.css
-Ciclo_4a_Aplicaciones_Web/MiPrimeraWeb/css/styles.css
-Ciclo_4a_Aplicaciones_Web/MiPrimeraWeb/css/tailwind.min.css
-Ciclo_4a_Aplicaciones_Web/MiPrimeraWeb/js/helpers/funciones.js
-Ciclo_4a_Aplicaciones_Web/Semana_01/Clases_Consolidado/MiPrimeraWeb/css/normalize.css
-Ciclo_4a_Aplicaciones_Web/Semana_01/Clases_Consolidado/MiPrimeraWeb/css/styles.css
-Ciclo_4a_Aplicaciones_Web/Semana_01/Clases_Consolidado/MiPrimeraWeb/css/tailwind.min.css
-Ciclo_4a_Aplicaciones_Web/Semana_01/Clases_Consolidado/MiPrimeraWeb/index.html
-Ciclo_4a_Aplicaciones_Web/Semana_01/Clases_Consolidado/MiPrimeraWeb/js/helpers/funciones.js
-Ciclo_4a_Aplicaciones_Web/Semana_01/Clases_Consolidado/MiPrimeraWeb/js/index.js
-Ciclo_4a_Aplicaciones_Web/Semana_02/Plataforma/random.json
-Ciclo_4a_Aplicaciones_Web/Semana_02/Plataforma/main.js
-Ciclo_4a_Aplicaciones_Web/Semana_02/Plataforma/promesas.js
-Ciclo_4a_Aplicaciones_Web/Semana_02/Plataforma/index.html
-Ciclo_4a_Aplicaciones_Web/Semana_02/Plataforma/datos/data.js
+Ciclo_4a_Aplicaciones_Web/Semana_01/Clases_Consolidado/*
+Ciclo_4a_Aplicaciones_Web/Semana_02/Plataforma/*
 Ciclo_4a_Aplicaciones_Web/Semana_02/00.01.02 - Glosario JavaScript.pdf
 Ciclo_4a_Aplicaciones_Web/Semana_02/00.01.01 - JavaScript Import Export MF2.pdf
-Ciclo_4a_Aplicaciones_Web/MiPrimeraWeb/js/helpers/generalidades.js
-Ciclo_4a_Aplicaciones_Web/ConsultarAPIs/index.html
-Ciclo_4a_Aplicaciones_Web/ConsultarAPIs/js/index.js
-Ciclo_4a_Aplicaciones_Web/ConsultarAPIs/css/normalize.css
-Ciclo_4a_Aplicaciones_Web/ConsultarAPIs/css/Listado.module.css
-Ciclo_4a_Aplicaciones_Web/ConsultarAPIs/css/Header.module.css
-Ciclo_4a_Aplicaciones_Web/ConsultarAPIs/css/Guitarra.module.css
-Ciclo_4a_Aplicaciones_Web/ConsultarAPIs/css/globals.css
-Ciclo_4a_Aplicaciones_Web/ConsultarAPIs/css/Footer.module.css
+Ciclo_4a_Aplicaciones_Web/ConsultarAPIs/*
 Ciclo_4a_Aplicaciones_Web/Semana_03/00.01.01 - Primer manual React.pdf
 Ciclo_4a_Aplicaciones_Web/Semana_03/00.01.02 - Glosario React.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/ConsultarAPIs/css/Footer.module.css
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/ConsultarAPIs/css/globals.css
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/ConsultarAPIs/css/Guitarra.module.css
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/ConsultarAPIs/css/Listado.module.css
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/ConsultarAPIs/js/index.js
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/ConsultarAPIs/css/Header.module.css
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/ConsultarAPIs/css/normalize.css
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/ConsultarAPIs/index.html
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/MiPrimeraWeb/css/normalize.css
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/MiPrimeraWeb/css/styles.css
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/MiPrimeraWeb/css/tailwind.min.css
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/MiPrimeraWeb/index.html
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/MiPrimeraWeb/js/helpers/funciones.js
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/MiPrimeraWeb/js/helpers/generalidades.js
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/MiPrimeraWeb/js/index.js
+Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/ConsultarAPIs/*
+Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/MiPrimeraWeb/*
 Ciclo_4a_Aplicaciones_Web/AJAX.rar
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/.editorconfig
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/.env.example
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/.eslintignore
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/.eslintrc
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/api/.gitkeep
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/api/blog/config/routes.json
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/api/blog/controllers/blog.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/api/blog/models/blog.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/api/blog/models/blog.settings.json
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/api/blog/services/blog.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/config/database.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/config/functions/bootstrap.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/config/functions/cron.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/config/functions/responses/404.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/config/plugins.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/config/server.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/extensions/.gitkeep
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/extensions/users-permissions/config/jwt.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/favicon.ico
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/package-lock.json
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/package.json
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/public/robots.txt
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/public/uploads/.gitkeep
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/README.md
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/public/uploads/.gitkeep
 Ciclo_4a_Aplicaciones_Web/CMS - Strapi.pptx
 Ciclo_4a_Aplicaciones_Web/Links ciclo 4.docx
 Ciclo_4a_Aplicaciones_Web/Material Apoyo ReactJS.pptx
 Ciclo_4a_Aplicaciones_Web/MERN.docx
 Ciclo_4a_Aplicaciones_Web/MisionTIC_Ciclo3_Que es AJAX.pptx
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/public/uploads/.gitkeep
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/public/uploads/.gitkeep
 Ciclo_4a_Aplicaciones_Web/Semana_03/Material Apoyo ReactJS.pptx
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/public/uploads/.gitkeep
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/public/uploads/.gitkeep
-Ciclo_4a_Aplicaciones_Web/app-reactjs/.env
-Ciclo_4a_Aplicaciones_Web/app-reactjs/index.html
-Ciclo_4a_Aplicaciones_Web/app-reactjs/package-lock.json
-Ciclo_4a_Aplicaciones_Web/app-reactjs/package.json
-Ciclo_4a_Aplicaciones_Web/app-reactjs/public/vite.svg
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/App.css
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/App.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/assets/css/Articulo.module.css
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/assets/css/normalize.css
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/assets/css/styles.css
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/assets/react.svg
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/components/Alerta.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/components/Footer.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/components/Header.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/components/Nav.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/index.css
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/layout/Layout.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/main.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/pages/Articulo.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/pages/DetalleArticulo.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/pages/Formulario.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/pages/Home.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/src/pages/ListaArticulos.jsx
-Ciclo_4a_Aplicaciones_Web/app-reactjs/vite.config.js
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/public/uploads/.gitkeep
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/public/uploads/.gitkeep
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/.env
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/index.html
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/package-lock.json
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/package.json
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/public/vite.svg
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/App.css
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/App.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/assets/css/Articulo.module.css
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/assets/css/normalize.css
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/assets/css/styles.css
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/assets/react.svg
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/components/Alerta.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/components/Footer.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/components/Header.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/components/Nav.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/index.css
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/layout/Layout.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/main.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/pages/Articulo.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/pages/DetalleArticulo.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/pages/Formulario.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/pages/Home.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/src/pages/ListaArticulos.jsx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/app-reactjs/vite.config.js
 Ciclo_4a_Aplicaciones_Web/Semana_04/00.01.01 - Introduccion MongoDB.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/package-lock.json
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/package.json
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/public/favicon.ico
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/public/index.html
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/public/logo192.png
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/public/logo512.png
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/public/manifest.json
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/public/robots.txt
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/README.md
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/App.css
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/App.js
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/App.test.js
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/hello-world.js
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/index.css
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/index.js
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/indexOriginal.js
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/logo.svg
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/reportWebVitals.js
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/setupTests.js
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/styles.css
 Ciclo_4a_Aplicaciones_Web/Semana_04/00.01.03 - Glosario MongoDB.pdf
 Ciclo_4a_Aplicaciones_Web/Semana_04/00.01.02 - Consultas Mongo.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/app-react-plataforma/src/Database/data.js
+Ciclo_4a_Aplicaciones_Web/app-reactjs/*
+Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/*
+Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/*
+Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/*
+Ciclo_4a_Aplicaciones_Web/Semana_04/00.02.01 - Consultas en MongoDB.pdf
+Ciclo_4a_Aplicaciones_Web/app-reactjs/*
+Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/*
