@@ -1,26 +1,6 @@
 Ciclo 1 - Python/Prueba.py
-Ciclo 1 - Python/Semana 01/01.01.01 - Breve Introducción a la Ingeniería de Software.pdf
-Ciclo 1 - Python/Semana 01/01.01.02 - Guide to the Software Engineering Body of Knowledge 3.0.pdf
-Ciclo 1 - Python/Semana 01/01.02.01 - Tipos de requisitos.pdf
-Ciclo 1 - Python/Semana 01/01.02.02 - Pressman - Software Engineering A Practitioner's Approach 8th c2015.pdf
-Ciclo 1 - Python/Semana 01/01.03.01 - Etapas del ciclo de vida.pdf
-Ciclo 1 - Python/Semana 01/01.04.01 - Modelos de ciclo de vida.pdf
-Ciclo 1 - Python/Semana 01/02.01.01 - Ingeniería de Requisitos.pdf
-Ciclo 1 - Python/Semana 01/02.02.01 - NORMA ISO 9001 2015.pdf
-Ciclo 1 - Python/Semana 01/02.03.01 - Actividades en la ingeniería de requisitos.pdf
-Ciclo 1 - Python/Semana 01/02.04.01 - Historias de usuario y lenguaje natural.pdf
-Ciclo 1 - Python/Semana 01/8100771-ISO12207-2017.pdf
-Ciclo 1 - Python/Semana 01/original_waterfall_paper_winston_royce.pdf
-Ciclo 1 - Python/Semana 01/Semana 1 - Ciclo de vida_.pdf
-Ciclo 1 - Python/Semana 01/Semana 1 - Introducción_.pdf
-Ciclo 1 - Python/Semana 01/software_requirements_are_they_really_a_problem.pdf
-Ciclo 1 - Python/Semana 01/swebok-v3.pdf
-Ciclo 1 - Python/Semana 02/01.01.01 - Entrada y salida de datos.pdf
-Ciclo 1 - Python/Semana 02/01.01.02 - PythonNotesForProfessionals.pdf
-Ciclo 1 - Python/Semana 02/01.02.01 - Conversión de una expresión algebraica.pdf
-Ciclo 1 - Python/Semana 02/01.02.02 - Operaciones con datos.pdf
-Ciclo 1 - Python/Semana 02/01.03.01 - Sentencias condicionales.pdf
-Ciclo 1 - Python/Semana 02/01.04.01 - Estructuras cíclicas.pdf
+Ciclo 1 - Python/Semana 01/*
+Ciclo 1 - Python/Semana 02/*
 Ciclo 1 - Python/Semana 03/01.01.01 - Listas.pdf
 Ciclo 1 - Python/Semana 03/01.01.02 - PythonNotesForProfessionals.pdf
 Ciclo 1 - Python/Semana 03/01.02.01 - Tuplas y Sets.pdf
@@ -55,7 +35,7 @@ Ciclo 1 - Python/Semana 07/01.01.01 - Manejo de exepeciones.pdf
 Ciclo 1 - Python/Semana 07/01.01.02 - PythonNotesForProfessionals.pdf
 Ciclo 1 - Python/Semana 07/01.02.01 - Pruebas unitarias.pdf
 Ciclo 1 - Python/Semana 07/01.02.02 - python-guide.pdf
-Ciclo 1 - Python/Semana 07/__pycache__/test_Clase 20220602.cpython-310-pytest-7.1.2.pyc
+Ciclo 1 - Python/Semana 07/__pycache__/*
 Ciclo 1 - Python/Semana 07/archivo de prueba.txt
 Ciclo 1 - Python/Semana 07/Clase 20220531.py
 Ciclo 1 - Python/Semana 07/Clase 20220604.py
@@ -91,16 +71,8 @@ Ciclo 2 - Java/Semana 4/01.04.01 - Interfaces graficas de usuario con java.pdf
 Ciclo 2 - Java/Semana 5/01.01.01 - Lectura 1. Introducción a las Pruebas Unitarias.pdf
 Ciclo 2 - Java/Semana 5/01.02.01 - Lectura 2. Automatización de Pruebas Unitarias Usando JUnit.pdf
 Ciclo 2 - Java/Semana 5/02.01.01 - Lectura 3. Persistencia usando Bases de Datos.pdf
-Ciclo 2 - Java/Semana 6/01.01.01 - Lectura 1. Diseño Básico de Bases de Datos Relacionales.pdf
-Ciclo 2 - Java/Semana 6/02.01.01 - Lectura 2. Introducción a MySQL.pdf
-Ciclo 2 - Java/Semana 6/02.05.01 - MySQL 5.0 Reference Manual.pdf
-Ciclo 2 - Java/Semana 6/Clase20220716.sql
-Ciclo 2 - Java/Semana 6/Clase20220719.sql
-Ciclo 2 - Java/Semana 6/Clase20220721.sql
-Ciclo 2 - Java/Semana 6/Clase20220723.sql
-Ciclo 2 - Java/Semana 6/ejemploC2S6L1.sql
-Ciclo 2 - Java/Semana 7/01.01.01 - Lectura 1. Introducción a JDBC.pdf
-Ciclo 2 - Java/Semana 7/01.02.01 - Lectura 2. Introducción a Hibernate.pdf
+Ciclo 2 - Java/Semana 6/*
+Ciclo 2 - Java/Semana 7/*
 Ciclo 2 - Java/SumarDosNumeros.java
 Ciclo 2 - Java/TiposDeDatos.java
 Ciclo 2 - Java/UnirDosTextos.java
@@ -110,51 +82,30 @@ Ciclo_3_Web/Semana_01/01.01.01 - Lectura. Metodología Scrum.pdf
 Ciclo_3_Web/Semana_01/01.01.02 - Scrum Guide.pdf
 Ciclo_3_Web/Semana_01/SCRUM.pptx
 Libros Generales/*
-Ciclo_3_Web/Semana_04/Css/Reset.css
-Ciclo_3_Web/Semana_04/Css/Styles.css
-Ciclo_3_Web/Semana_04/Fonts/MsMadi-Regular.ttf
-Ciclo_3_Web/Semana_04/Fonts/OFL.txt
-Ciclo_3_Web/Semana_04/Imagenes/offer_discount_sales_proc_icon_228008.png
-Ciclo_3_Web/Semana_04/Imagenes/workplace-gbbc2af86f_1920.jpg
-Ciclo_3_Web/Semana_04/index.html
-Ciclo_3_Web/Semana_04/Css/stylesfrm.css
-Ciclo_3_Web/Semana_04/frmcliente.html
-Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 1/Sprint1_Acme.docx
-Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 2/Sprint2_Acme.docx
-Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 3/Diagrama Entidad-Relacion.jfif
-Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 3/Sprint3_Acme.docx
-Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 4/Sprint4_Acme.docx
-Ciclo_4a_Aplicaciones_Web/MiPrimeraWeb/*
-Ciclo_4a_Aplicaciones_Web/Semana_01/00.01.01 - SCRUM MF1.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_01/00.01.02 - SCRUM MF2.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_01/00.01.03 - JavaScript MF3.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_01/00.01.04 - Glosario SCRUM.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_01/00.01.05 - Glosario JavaScript.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_01/00.02.01 - 2020 Scrum Guide Spanish Latin South American.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_01/00.02.02 - scrum manager historias usuario.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_01/Clases_Consolidado/*
-Ciclo_4a_Aplicaciones_Web/Semana_02/Plataforma/*
-Ciclo_4a_Aplicaciones_Web/Semana_02/00.01.02 - Glosario JavaScript.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_02/00.01.01 - JavaScript Import Export MF2.pdf
+Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 1/*
+Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 2/*
+Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 3/*
+Ciclo_3_Web/Proyecto_Ciclo_3/Sprint 4/*
+Ciclo_4a_Aplicaciones_Web/app-contactos/*
+Ciclo_4a_Aplicaciones_Web/app-reactjs/*
+Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/*
 Ciclo_4a_Aplicaciones_Web/ConsultarAPIs/*
-Ciclo_4a_Aplicaciones_Web/Semana_03/00.01.01 - Primer manual React.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_03/00.01.02 - Glosario React.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/ConsultarAPIs/*
-Ciclo_4a_Aplicaciones_Web/Semana_02/Clases_Consolidado/MiPrimeraWeb/*
+Ciclo_4a_Aplicaciones_Web/MiPrimeraWeb/*
+Ciclo_4a_Aplicaciones_Web/Semana_01/*
+Ciclo_4a_Aplicaciones_Web/Semana_02/*
+Ciclo_4a_Aplicaciones_Web/Semana_03/*
+Ciclo_4a_Aplicaciones_Web/Semana_04/*
 Ciclo_4a_Aplicaciones_Web/AJAX.rar
 Ciclo_4a_Aplicaciones_Web/CMS - Strapi.pptx
 Ciclo_4a_Aplicaciones_Web/Links ciclo 4.docx
 Ciclo_4a_Aplicaciones_Web/Material Apoyo ReactJS.pptx
 Ciclo_4a_Aplicaciones_Web/MERN.docx
 Ciclo_4a_Aplicaciones_Web/MisionTIC_Ciclo3_Que es AJAX.pptx
-Ciclo_4a_Aplicaciones_Web/Semana_03/Material Apoyo ReactJS.pptx
-Ciclo_4a_Aplicaciones_Web/Semana_04/00.01.01 - Introduccion MongoDB.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_04/00.01.03 - Glosario MongoDB.pdf
-Ciclo_4a_Aplicaciones_Web/Semana_04/00.01.02 - Consultas Mongo.pdf
-Ciclo_4a_Aplicaciones_Web/app-reactjs/*
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/*
-Ciclo_4a_Aplicaciones_Web/Semana_03/Clases_Consolidado/*
-Ciclo_4a_Aplicaciones_Web/Semana_04/Proyecto_React_Plataforma/*
-Ciclo_4a_Aplicaciones_Web/Semana_04/00.02.01 - Consultas en MongoDB.pdf
-Ciclo_4a_Aplicaciones_Web/app-reactjs/*
-Ciclo_4a_Aplicaciones_Web/cmd-tienda-virtual/*
+Ciclo_4a_Aplicaciones_Web/Semana_05/Clases_Consolidado/*
+Ciclo_4a_Aplicaciones_Web/Semana_05/Plataforma/CRUD/*
+Ciclo_4a_Aplicaciones_Web/Semana_05/00.01.01 - Microservicios.pdf
+Ciclo_4a_Aplicaciones_Web/Semana_05/00.01.02 - Tutorial uso API REST.pdf
+Ciclo_4a_Aplicaciones_Web/Semana_05/00.01.03 - Glosario MongoDB.pdf
+Ciclo_4a_Aplicaciones_Web/Semana_05/00.02.01 - NET Microservices Architecture for Containerized NET Applications.pdf
+Ciclo_4a_Aplicaciones_Web/Semana_06/Clases_Consolidado/*
+Ciclo_4a_Aplicaciones_Web/Semana_07/Clases_Consolidado/*
